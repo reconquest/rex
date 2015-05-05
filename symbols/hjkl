@@ -26,8 +26,8 @@ partial alphanumeric_keys
 xkb_symbols "caret" {
     key <AD06> {
         type= "FOUR_LEVEL",
-        symbols[Group1] = [y, Y, Insert, Insert],
-        symbols[Group2] = [Cyrillic_en, Cyrillic_EN, Insert, Insert]
+        symbols[Group1] = [y, Y, KP_Insert, KP_Insert],
+        symbols[Group2] = [Cyrillic_en, Cyrillic_EN, KP_Insert, KP_Insert]
     };
     key <AD07> {
         type= "FOUR_LEVEL",
