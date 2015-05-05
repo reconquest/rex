@@ -1,0 +1,5 @@
+default
+xkb_keycodes "remap-backspace" {
+    <_BSP> = 22;
+    <BKSP> = 254;
+};
