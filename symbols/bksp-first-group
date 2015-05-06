@@ -1,4 +1,0 @@
-default partial hidden modifier_keys
-xkb_symbols "bksp-first-group" {
-    replace key <_BSP> { [ ISO_First_Group, ISO_First_Group ] };
-};
