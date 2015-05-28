@@ -51,8 +51,8 @@ xkb_symbols "caret" {
     };
     key <AD11> {
         type= "FOUR_LEVEL",
-        symbols[Group1] = [bracketleft, braceleft, KP_Subtract, KP_Subtract],
-        symbols[Group2] = [Cyrillic_ha, Cyrillic_HA, KP_Subtract, KP_Subtract]
+        symbols[Group1] = [bracketleft, braceleft, KP_Add, KP_Add],
+        symbols[Group2] = [Cyrillic_ha, Cyrillic_HA, KP_Add, KP_Add]
     };
     key <AD12> {
         type= "FOUR_LEVEL",
@@ -127,6 +127,16 @@ xkb_symbols "fast-numpad" {
         type= "EIGHT_LEVEL",
         symbols[Group1] = [r, R, r, R, KP_8, KP_8],
         symbols[Group2] = [Cyrillic_ka, Cyrillic_KA, Cyrillic_ka, Cyrillic_KA, KP_8, KP_8]
+    };
+    key <AC01> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [a, A, a, A, KP_Subtract, KP_Subtract],
+        symbols[Group2] = [Cyrillic_ef, Cyrillic_EF, Cyrillic_ef, Cyrillic_EF, KP_Subtract, KP_Subtract]
+    };
+    key <AC02> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [s, S, s, S, KP_Equal, KP_Equal],
+        symbols[Group2] = [Cyrillic_yeru, Cyrillic_YERU, Cyrillic_yeru, Cyrillic_YERU, KP_Equal, KP_Equal]
     };
     key <AC03> {
         type= "EIGHT_LEVEL",

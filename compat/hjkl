@@ -36,7 +36,7 @@ xkb_compatibility "super_mappings" {
         repeat= True;
         action= RedirectKey(keycode=<RTRN>, clearmods=Super);
     };
-    interpret KP_Subtract {
+    interpret KP_Add {
         repeat= True;
         action= RedirectKey(keycode=<BKSP>, clearmods=Super);
     };
@@ -87,5 +87,13 @@ xkb_compatibility "super_mappings" {
     interpret KP_0 {
         repeat= True;
         action= RedirectKey(keycode=<AE10>, clearmods=Mod3);
+    };
+    interpret KP_Subtract {
+        repeat= True;
+        action= RedirectKey(keycode=<AE11>, clearmods=Mod3);
+    };
+    interpret KP_Equal {
+        repeat= True;
+        action= RedirectKey(keycode=<AE12>, clearmods=Mod3);
     };
 };
