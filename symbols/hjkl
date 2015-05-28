@@ -150,3 +150,15 @@ xkb_symbols "fast-numpad" {
     };
 };
 
+partial modifier_keys
+xkb_symbols "lvl3-shift-shift" {
+    key <LFSH> {
+        type[Group1]="FOUR_LEVEL",
+        symbols[Group1] = [ Shift_L, Shift_L, ISO_First_Group, ISO_First_Group ]
+    };
+    key <RTSH> {
+        type[Group1]="FOUR_LEVEL",
+        symbols[Group1] = [ Shift_R, Shift_R, ISO_Last_Group, ISO_Last_Group ]
+    };
+};
+
