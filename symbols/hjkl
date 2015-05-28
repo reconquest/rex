@@ -85,3 +85,58 @@ xkb_symbols "rctrl-rshift" {
     replace key <RCTL> { [Shift_R] };
     modifier_map Shift { <RCTL> };
 };
+
+partial alphanumeric_keys
+xkb_symbols "fast-numpad" {
+    key <AE01> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [1, exclam, 1, exclam, KP_1, KP_1],
+        symbols[Group2] = [1, exclam, 1, exclam, KP_1, KP_1]
+    };
+    key <AE02> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [2, ampersand, 2, ampersand, KP_2, KP_2],
+        symbols[Group2] = [2, ampersand, 2, ampersand, KP_2, KP_2]
+    };
+    key <AE03> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [3, numbersign, 3, numbersign, KP_3, KP_3],
+        symbols[Group2] = [3, numerosign, 3, numerosign, KP_3, KP_3]
+    };
+    key <AE04> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [4, dollar, 4, dollar, KP_4, KP_4],
+        symbols[Group2] = [4, semicolon, 4, semicolon, KP_4, KP_4]
+    };
+    key <AD01> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [q, Q, q, Q, KP_5, KP_5],
+        symbols[Group2] = [Cyrillic_shorti, Cyrillic_SHORTI, Cyrillic_shorti, Cyrillic_SHORTI, KP_5, KP_5]
+    };
+    key <AD02> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [w, W, w, W, KP_6, KP_6],
+        symbols[Group2] = [Cyrillic_tse, Cyrillic_TSE, Cyrillic_tse, Cyrillic_TSE, KP_6, KP_6]
+    };
+    key <AD03> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [e, E, e, E, KP_7, KP_7],
+        symbols[Group2] = [Cyrillic_u, Cyrillic_U, Cyrillic_u, Cyrillic_U, KP_7, KP_7]
+    };
+    key <AD04> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [r, R, r, R, KP_8, KP_8],
+        symbols[Group2] = [Cyrillic_ka, Cyrillic_KA, Cyrillic_ka, Cyrillic_KA, KP_8, KP_8]
+    };
+    key <AC03> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [d, D, d, D, KP_9, KP_9],
+        symbols[Group2] = [Cyrillic_ve, Cyrillic_VE, Cyrillic_ve, Cyrillic_VE, KP_9, KP_9]
+    };
+    key <AC04> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [f, F, f, F, KP_0, KP_0],
+        symbols[Group2] = [Cyrillic_a, Cyrillic_A, Cyrillic_a, Cyrillic_A, KP_0, KP_0]
+    };
+};
+

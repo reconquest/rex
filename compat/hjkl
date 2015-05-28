@@ -48,4 +48,44 @@ xkb_compatibility "super_mappings" {
         repeat= True;
         action= RedirectKey(keycode=<INS>, clearmods=Super);
     };
+    interpret KP_1 {
+        repeat= True;
+        action= RedirectKey(keycode=<AE01>, clearmods=Mod3);
+    };
+    interpret KP_2 {
+        repeat= True;
+        action= RedirectKey(keycode=<AE02>, clearmods=Mod3);
+    };
+    interpret KP_3 {
+        repeat= True;
+        action= RedirectKey(keycode=<AE03>, clearmods=Mod3);
+    };
+    interpret KP_4 {
+        repeat= True;
+        action= RedirectKey(keycode=<AE04>, clearmods=Mod3);
+    };
+    interpret KP_5 {
+        repeat= True;
+        action= RedirectKey(keycode=<AE05>, clearmods=Mod3);
+    };
+    interpret KP_6 {
+        repeat= True;
+        action= RedirectKey(keycode=<AE06>, clearmods=Mod3);
+    };
+    interpret KP_7 {
+        repeat= True;
+        action= RedirectKey(keycode=<AE07>, clearmods=Mod3);
+    };
+    interpret KP_8 {
+        repeat= True;
+        action= RedirectKey(keycode=<AE08>, clearmods=Mod3);
+    };
+    interpret KP_9 {
+        repeat= True;
+        action= RedirectKey(keycode=<AE09>, clearmods=Mod3);
+    };
+    interpret KP_0 {
+        repeat= True;
+        action= RedirectKey(keycode=<AE10>, clearmods=Mod3);
+    };
 };
