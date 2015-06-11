@@ -130,8 +130,8 @@ xkb_symbols "fast-numpad" {
     };
     key <AC01> {
         type= "EIGHT_LEVEL",
-        symbols[Group1] = [a, A, a, A, KP_Subtract, KP_Subtract, KP_Subtract, KP_Subtract, KP_Subtract, KP_Subtract],
-        symbols[Group2] = [Cyrillic_ef, Cyrillic_EF, Cyrillic_ef, Cyrillic_EF, KP_Subtract, KP_Subtract, KP_Subtract, KP_Subtract, KP_Subtract, KP_Subtract]
+        symbols[Group1] = [a, A, a, A, KP_Subtract, KP_Subtract, KP_Subtract, KP_Subtract ],
+        symbols[Group2] = [Cyrillic_ef, Cyrillic_EF, Cyrillic_ef, Cyrillic_EF, KP_Subtract, KP_Subtract, KP_Subtract, KP_Subtract]
     };
     key <AC02> {
         type= "EIGHT_LEVEL",
