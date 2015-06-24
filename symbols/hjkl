@@ -24,10 +24,10 @@ xkb_symbols "hjkl" {
 
 partial alphanumeric_keys
 xkb_symbols "caret" {
-    key <AD06> {
+    key <AD05> {
         type= "FOUR_LEVEL",
-        symbols[Group1] = [y, Y, KP_Insert, KP_Insert],
-        symbols[Group2] = [Cyrillic_en, Cyrillic_EN, KP_Insert, KP_Insert]
+        symbols[Group1] = [t, T, KP_Insert, KP_Insert],
+        symbols[Group2] = [Cyrillic_e, Cyrillic_E, KP_Insert, KP_Insert]
     };
     key <AD07> {
         type= "FOUR_LEVEL",
@@ -147,6 +147,16 @@ xkb_symbols "fast-numpad" {
         type= "EIGHT_LEVEL",
         symbols[Group1] = [f, F, f, F, KP_0, KP_0, KP_0, KP_0],
         symbols[Group2] = [Cyrillic_a, Cyrillic_A, Cyrillic_a, Cyrillic_A, KP_0, KP_0, KP_0, KP_0]
+    };
+    key <AD11> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [bracketleft, braceleft, KP_Add, KP_Add, KP_Add, KP_Add, KP_Add, KP_Add],
+        symbols[Group2] = [Cyrillic_ha, Cyrillic_HA, KP_Add, KP_Add, KP_Add, KP_Add, KP_Add, KP_Add]
+    };
+    key <AD12> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [bracketright, braceright, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete],
+        symbols[Group2] = [Cyrillic_hardsign, Cyrillic_HARDSIGN, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete]
     };
 };
 
