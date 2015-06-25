@@ -27,7 +27,7 @@ xkb_symbols "caret" {
     key <AD05> {
         type= "FOUR_LEVEL",
         symbols[Group1] = [t, T, KP_Insert, KP_Insert],
-        symbols[Group2] = [Cyrillic_e, Cyrillic_E, KP_Insert, KP_Insert]
+        symbols[Group2] = [Cyrillic_ie, Cyrillic_IE, KP_Insert, KP_Insert]
     };
     key <AD07> {
         type= "FOUR_LEVEL",
