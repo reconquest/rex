@@ -1,0 +1,4 @@
+partial modifier_keys
+xkb_symbols "f8-second-layout" {
+    replace key <FK08> { [ Mode_switch, Mode_switch, Multi_key, F8, F8 ] };
+};
