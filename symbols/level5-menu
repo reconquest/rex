@@ -1,0 +1,8 @@
+partial modifier_keys
+xkb_symbols "modifier_mapping" {
+  replace key <MENU> {
+    type[Group1] = "ONE_LEVEL",
+    symbols[Group1] = [ ISO_Level5_Shift ]
+  };
+  modifier_map Mod3 { <MENU> };
+};
