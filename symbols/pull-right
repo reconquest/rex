@@ -1,0 +1,83 @@
+partial alphanumeric_keys
+xkb_symbols "pull_right" {
+//   Y       U       I       O        P        [        ]
+// <AD06>  <AD07>  <AD08>  <AD09>   <AD10>   <AD11>   <AD12>
+//
+// will be converted to
+//
+//   [       ]       Y       U        I        O        P
+// <AD06>  <AD07>  <AD08>  <AD09>   <AD10>   <AD11>   <AD12>
+    key <AD06> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [bracketleft, braceleft, KP_Add, KP_Add],
+        symbols[Group2] = [Cyrillic_ha, Cyrillic_HA, KP_Add, KP_Add]
+    };
+    key <AD07> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [bracketright, braceright, KP_Delete, KP_Delete],
+        symbols[Group2] = [Cyrillic_hardsign, Cyrillic_HARDSIGN, KP_Delete, KP_Delete]
+    };
+    key <AD08> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [y, Y, y, Y],
+        symbols[Group2] = [Cyrillic_en, Cyrillic_EN, Cyrillic_en, Cyrillic_EN]
+    };
+    key <AD09> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [u, U, KP_Home, KP_Home],
+        symbols[Group2] = [Cyrillic_ghe, Cyrillic_GHE, KP_Home, KP_Home]
+    };
+    key <AD10> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [i, I, KP_Next, KP_Next],
+        symbols[Group2] = [Cyrillic_sha, Cyrillic_SHA, KP_Next, KP_Next]
+    };
+    key <AD11> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [o, O, KP_Prior, KP_Prior],
+        symbols[Group2] = [Cyrillic_shcha, Cyrillic_SHCHA, KP_Prior, KP_Prior]
+    };
+    key <AD12> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [p, P, KP_End, KP_End],
+        symbols[Group2] = [Cyrillic_ze, Cyrillic_ZE, KP_End, KP_End]
+    };
+
+//   H       J       K       L        ;        '
+// <AC06>  <AC07>  <AC08>  <AC09>   <AC10>   <AC11>
+//
+// will be converted to
+//
+//   ;       '       H       J        K        L
+// <AC06>  <AC07>  <AC08>  <AC09>   <AC10>   <AC11>
+    key <AC06> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [semicolon, colon, semicolon, colon],
+        symbols[Group2] = [Cyrillic_zhe, Cyrillic_ZHE, Cyrillic_zhe, Cyrillic_ZHE]
+    };
+    key <AC07> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [apostrophe, quotedbl, apostrophe, quotedbl],
+        symbols[Group2] = [Cyrillic_e, Cyrillic_E, Cyrillic_e, Cyrillic_E]
+    };
+    key <AC08> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [h, H, KP_Left, KP_Left],
+        symbols[Group2] = [Cyrillic_er, Cyrillic_ER, KP_Left, KP_Left]
+    };
+    key <AC09> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [j, J, KP_Down, KP_Down],
+        symbols[Group2] = [Cyrillic_o, Cyrillic_O, KP_Down, KP_Down]
+    };
+    key <AC10> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [k, K, KP_Up, KP_Up],
+        symbols[Group2] = [Cyrillic_el, Cyrillic_EL, KP_Up, KP_Up]
+    };
+    key <AC11> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [l, L, KP_Right, KP_Right],
+        symbols[Group2] = [Cyrillic_de, Cyrillic_DE, KP_Right, KP_Right]
+    };
+};
