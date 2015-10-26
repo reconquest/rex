@@ -1,4 +1,9 @@
 partial modifier_keys
+xkb_symbols "f7-multi-key" {
+    replace key <FK07> { [ Multi_key, Multi_key, F7, F7, F7 ] };
+};
+
+partial modifier_keys
 xkb_symbols "f8-second-layout" {
     replace key <FK08> { [ Mode_switch, Mode_switch, Multi_key, F8, F8 ] };
 };
