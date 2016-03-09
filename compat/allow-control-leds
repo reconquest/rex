@@ -1,0 +1,31 @@
+partial
+xkb_compatibility "leds" {
+    indicator "Caps Lock" {
+        allowExplicit;
+        whichModState = locked;
+        modifiers = Lock;
+    };
+
+    indicator "Num Lock" {
+        allowExplicit;
+        whichModState= locked;
+        modifiers= NumLock;
+    };
+
+    indicator "Scroll Lock" {
+        allowExplicit;
+        whichModState= locked;
+        modifiers= ScrollLock;
+    };
+
+    indicator "Shift Lock" {
+        allowExplicit;
+        whichModState= locked;
+        modifiers= Shift;
+    };
+
+    indicator "Group 2" {
+        allowExplicit;
+        groups= 0xfe;
+    };
+};
