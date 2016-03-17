@@ -24,11 +24,6 @@ xkb_symbols "hjkl" {
 
 partial alphanumeric_keys
 xkb_symbols "caret" {
-    key <AD05> {
-        type= "FOUR_LEVEL",
-        symbols[Group1] = [t, T, KP_Insert, KP_Insert],
-        symbols[Group2] = [Cyrillic_ie, Cyrillic_IE, KP_Insert, KP_Insert]
-    };
     key <AD07> {
         type= "FOUR_LEVEL",
         symbols[Group1] = [u, U, KP_Home, KP_Home],

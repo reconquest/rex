@@ -1,0 +1,11 @@
+partial
+xkb_compatibility "fast-copy-paste" {
+    interpret KP_Insert {
+        repeat= True;
+        action= RedirectKey(keycode=<LatC>, mods=Control, clearmods=Super);
+    };
+    interpret KP_Multiply {
+        repeat= True;
+        action= RedirectKey(keycode=<INS>, mods=Shift, clearmods=Super);
+    };
+};

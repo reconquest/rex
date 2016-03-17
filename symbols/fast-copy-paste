@@ -1,0 +1,13 @@
+partial alphanumeric_keys
+xkb_symbols "fast-copy-paste" {
+    key <LatC> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [c, c, KP_Insert, KP_Insert],
+        symbols[Group2] = [Cyrillic_es, Cyrillic_ES, KP_Insert, KP_Insert]
+    };
+    key <LatV> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [v, v, KP_Multiply, KP_Multiply],
+        symbols[Group2] = [Cyrillic_em, Cyrillic_EM, KP_Multiply, KP_Multiply]
+    };
+};

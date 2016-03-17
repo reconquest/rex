@@ -44,10 +44,6 @@ xkb_compatibility "super_mappings" {
         repeat= True;
         action= RedirectKey(keycode=<DELE>, clearmods=Super);
     };
-    interpret KP_Insert {
-        repeat= True;
-        action= RedirectKey(keycode=<INS>, clearmods=Super);
-    };
     interpret KP_1 {
         repeat= True;
         action= RedirectKey(keycode=<AE01>, clearmods=Mod3);
