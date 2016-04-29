@@ -1,0 +1,4 @@
+partial modifier_keys
+xkb_symbols "rshift-ralt" {
+    replace key <RTSH> { [ ISO_Level5_Shift ] };
+};
