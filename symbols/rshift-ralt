@@ -3,7 +3,9 @@ xkb_symbols "rshift-ralt" {
     replace key <RTSH> { [ ISO_Level5_Shift ] };
     key <RALT> {
         type[Group1]="ONE_LEVEL",
-        symbols[Group1] = [ Shift_R ]
+        symbols[Group1] = [ Shift_R ],
+        type[Group2]="ONE_LEVEL",
+        symbols[Group2] = [ Shift_R ]
     };
     modifier_map Shift { <RALT> };
 };
