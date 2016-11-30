@@ -195,6 +195,26 @@ xkb_symbols "fast-numpad" {
         symbols[Group1] = [bracketright, braceright, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete],
         symbols[Group2] = [Cyrillic_hardsign, Cyrillic_HARDSIGN, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete]
     };
+    key <AB08> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [comma, less, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft],
+        symbols[Group2] = [Cyrillic_be, Cyrillic_BE, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft]
+    };
+    key <AB08> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [comma, less, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft],
+        symbols[Group2] = [Cyrillic_be, Cyrillic_BE, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft]
+    };
+    key <AB09> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [period, greater, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright],
+        symbols[Group2] = [Cyrillic_yu, Cyrillic_YU, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright]
+    };
+    key <AE11> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [minus, equal, emdash, emdash, emdash, emdash, emdash, emdash],
+        symbols[Group2] = [minus, equal, emdash, emdash, emdash, emdash, emdash, emdash]
+    };
 };
 
 partial modifier_keys
