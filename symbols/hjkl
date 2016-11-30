@@ -212,8 +212,8 @@ xkb_symbols "fast-numpad" {
     };
     key <AE11> {
         type= "EIGHT_LEVEL",
-        symbols[Group1] = [minus, equal, emdash, emdash, emdash, emdash, emdash, emdash],
-        symbols[Group2] = [minus, equal, emdash, emdash, emdash, emdash, emdash, emdash]
+        symbols[Group1] = [minus, underscore, emdash, emdash, emdash, emdash, emdash, emdash],
+        symbols[Group2] = [minus, underscore, emdash, emdash, emdash, emdash, emdash, emdash]
     };
 };
 
