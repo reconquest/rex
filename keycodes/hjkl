@@ -1,5 +1,4 @@
 default
-xkb_keycodes "remap-backspace" {
-    <_BSP> = 22;
-    <BKSP> = 254;
+xkb_keycodes "hjkl" {
+    <FK13> = 64;
 };

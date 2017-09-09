@@ -1,5 +1,6 @@
 partial alphanumeric_keys
 xkb_symbols "hjkl" {
+    key <FK13> {         [ ISO_Level3_Shift ] };
     key <AC06> {
         type= "FOUR_LEVEL",
         symbols[Group1] = [h, H, KP_Left, KP_Left],
