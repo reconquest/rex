@@ -196,20 +196,20 @@ xkb_symbols "fast-numpad" {
         symbols[Group1] = [bracketright, braceright, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete],
         symbols[Group2] = [Cyrillic_hardsign, Cyrillic_HARDSIGN, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete, KP_Delete]
     };
-    key <AB08> {
+    key <AC10> {
         type= "EIGHT_LEVEL",
-        symbols[Group1] = [comma, less, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft],
-        symbols[Group2] = [Cyrillic_be, Cyrillic_BE, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft]
+        symbols[Group1] = [semicolon, colon, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft],
+        symbols[Group2] = [Cyrillic_zhe, Cyrillic_ZHE, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft]
     };
-    key <AB08> {
+    key <AC11> {
         type= "EIGHT_LEVEL",
-        symbols[Group1] = [comma, less, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft],
-        symbols[Group2] = [Cyrillic_be, Cyrillic_BE, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft, guillemotleft]
+        symbols[Group1] = [apostrophe, quotedbl, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright],
+        symbols[Group2] = [Cyrillic_e, Cyrillic_E, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright]
     };
     key <AB09> {
         type= "EIGHT_LEVEL",
-        symbols[Group1] = [period, greater, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright],
-        symbols[Group2] = [Cyrillic_yu, Cyrillic_YU, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright, guillemotright]
+        symbols[Group1] = [period, greater, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator],
+        symbols[Group2] = [Cyrillic_yu, Cyrillic_YU, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator]
     };
     key <AE11> {
         type= "EIGHT_LEVEL",

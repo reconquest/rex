@@ -92,4 +92,8 @@ xkb_compatibility "super_mappings" {
         repeat= True;
         action= RedirectKey(keycode=<AE12>, clearmods=Mod3);
     };
+    interpret KP_Separator {
+        repeat= True;
+        action= RedirectKey(keycode=<AB09>, clearmods=Mod3);
+    };
 };
