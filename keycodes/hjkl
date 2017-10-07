@@ -1,4 +1,4 @@
 default
 xkb_keycodes "hjkl" {
-    <FK13> = 64;
+    <FK13> = 8;
 };
