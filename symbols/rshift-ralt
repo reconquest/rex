@@ -7,5 +7,10 @@ xkb_symbols "rshift-ralt" {
         type[Group2]="ONE_LEVEL",
         symbols[Group2] = [ Shift_R ]
     };
+    replace key <FK14> {
+        type[Group1] = "ONE_LEVEL",
+        symbols[Group1] = [ ISO_Level5_Shift ]
+    };
+    modifier_map Mod3 { <FK14> };
     modifier_map Shift { <RALT> };
 };

@@ -1,0 +1,7 @@
+partial
+xkb_symbols "menu" {
+  replace key <MENU> {
+    type = "ONE_LEVEL",
+    symbols[Group1] = [ Multi_key ]
+  };
+};
