@@ -211,16 +211,6 @@ xkb_symbols "fast-numpad" {
         symbols[Group1] = [period, greater, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator],
         symbols[Group2] = [Cyrillic_yu, Cyrillic_YU, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator]
     };
-    key <AE11> {
-        type= "EIGHT_LEVEL",
-        symbols[Group1] = [minus, underscore, emdash, emdash, emdash, emdash, emdash, emdash],
-        symbols[Group2] = [minus, underscore, emdash, emdash, emdash, emdash, emdash, emdash]
-    };
-    key <AE08> {
-        type= "EIGHT_LEVEL",
-        symbols[Group1] = [8, asterisk, enfilledcircbullet, enfilledcircbullet, enfilledcircbullet, enfilledcircbullet, enfilledcircbullet, enfilledcircbullet],
-        symbols[Group2] = [8, asterisk, enfilledcircbullet, enfilledcircbullet, enfilledcircbullet, enfilledcircbullet, enfilledcircbullet, enfilledcircbullet]
-    };
 };
 
 partial modifier_keys
