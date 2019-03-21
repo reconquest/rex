@@ -1,0 +1,8 @@
+partial modifier_keys
+xkb_symbols "esc-to-tilde" {
+    key <ESC> {
+        type= "FOUR_LEVEL",
+        symbols[Group1] = [grave, asciitilde],
+        symbols[Group2] = [Cyrillic_io, Cyrillic_IO]
+    };
+};
