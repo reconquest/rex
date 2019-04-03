@@ -211,6 +211,11 @@ xkb_symbols "fast-numpad" {
         symbols[Group1] = [period, greater, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator],
         symbols[Group2] = [Cyrillic_yu, Cyrillic_YU, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator, KP_Separator]
     };
+    key <AB05> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [b, B, F13, F13, F13, F13, F13, F13],
+        symbols[Group2] = [Cyrillic_i, Cyrillic_I, F13, F13, F13, F13, F13, F13]
+    };
 };
 
 partial modifier_keys

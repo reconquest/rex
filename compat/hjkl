@@ -96,4 +96,8 @@ xkb_compatibility "super_mappings" {
         repeat= True;
         action= RedirectKey(keycode=<AB09>, clearmods=Mod3);
     };
+    interpret F13 {
+        repeat= True;
+        action= RedirectKey(keycode=<LEFT>, clearmods=Super, mods=Alt);
+    };
 };
