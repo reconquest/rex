@@ -213,8 +213,13 @@ xkb_symbols "fast-numpad" {
     };
     key <AB05> {
         type= "EIGHT_LEVEL",
-        symbols[Group1] = [b, B, F13, F13, F13, F13, F13, F13],
-        symbols[Group2] = [Cyrillic_i, Cyrillic_I, F13, F13, F13, F13, F13, F13]
+        symbols[Group1] = [b, B, b, B, F13, F13, F13, F13],
+        symbols[Group2] = [Cyrillic_i, Cyrillic_I, Cyrillic_i, Cyrillic_I, F13, F13, F13, F13]
+    };
+    key <AE11> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [minus, underscore, minus, underscore, emdash, emdash, emdash, emdash],
+        symbols[Group2] = [minus, underscore, minus, underscore, emdash, emdash, emdash, emdash]
     };
 };
 
