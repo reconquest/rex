@@ -3,6 +3,6 @@ xkb_symbols "multi-key" {
     key <AB10> {
         type= "EIGHT_LEVEL",
         symbols[Group1] = [slash, question, slash, question, Multi_key, Multi_key, Multi_key, Multi_key],
-        symbols[Group2] = [comma, period, comma, period, Multi_key, Multi_key, Multi_key, Multi_key]
+        symbols[Group2] = [period, comma, period, comma, Multi_key, Multi_key, Multi_key, Multi_key]
     };
 };
