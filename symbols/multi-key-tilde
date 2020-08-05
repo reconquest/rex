@@ -1,0 +1,9 @@
+partial alphanumeric_keys
+
+xkb_symbols "multi-key" {
+    key <TLDE> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [grave, asciitilde, grave, asciitilde, Multi_key, Multi_key, Multi_key, Multi_key],
+        symbols[Group2] = [Cyrillic_io, Cyrillic_IO, Cyrillic_io, Cyrillic_IO, Multi_key, Multi_key, Multi_key, Multi_key]
+    };
+};
